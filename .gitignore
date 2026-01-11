@@ -1,0 +1,16 @@
+# .gitignore
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略 Chroma 数据库文件 (太大了，而且是二进制文件，不传)
+my_knowledge_base/
+
+# 忽略环境配置
+.env
+.venv
+venv/
+
+# ⚠️ 忽略任何包含 Key 的文件 (如果你把 Key 写在 txt 里)
+*.txt
